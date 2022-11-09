@@ -1,1 +1,19 @@
-/* You can add global styles to this file, and also import other style files */
+@import '~ngx-toastr/toastr';
+body{
+   
+    background: linear-gradient(rgb(0,0,0,0.6),rgb(0,0,0,0.6)), url('./assets/fondo.jpg');
+    background-position: fixed;
+    background-size: cover;
+  
+    
+}
+footer {
+    
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin-top: 20%;
+    background-color: rgb(51, 50, 50);
+    color: white;
+    text-align: center;
+}
